@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Rudchenko Gennady</title>
+  <meta name="description" content="CV Rudchenko Gennady">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__bar">
+        <a class="pdf-download" href="cv-ru.pdf" download="CV-Rudchenko-Gennady.pdf">
+          <svg class="header__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3v12"/>
+            <path d="m7 11 5 5 5-5"/>
+            <path d="M5 21h14"/>
+          </svg>
+          <span data-i18n="downloadPdf">Скачать PDF</span>
+        </a>
+        <div class="lang-switch" role="group" data-i18n-aria="langSwitch" aria-label="Язык">
+          <button type="button" class="is-active" data-lang="ru" aria-pressed="true">RU</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+      <div class="header__inner">
+        <img class="header__photo" src="images/photo.jpg" alt="Рудченко Геннадий" data-i18n-alt="photoAlt">
+        <div class="header__info">
+          <p class="header__role">Frontend Web Developer</p>
+          <h1 class="header__name" data-i18n="name">Рудченко Геннадий</h1>
+          <ul class="header__meta">
+            <li class="header__meta-item">
+              <svg class="header__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11z"/>
+                <circle cx="12" cy="10" r="2.4"/>
+              </svg>
+              <span data-i18n="location">Беларусь, Минск</span>
+            </li>
+            <li class="header__meta-item">
+              <svg class="header__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="8" r="3.4"/>
+                <path d="M5.2 19.2a7.2 7.2 0 0 1 13.6 0"/>
+              </svg>
+              <span data-i18n="age">33 года</span>
+            </li>
+          </ul>
+        </div>
+        <ul class="header__contacts">
+          <li>
+            <a class="header__contact" href="tel:+375291236739">
+              <svg class="header__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.6 3.8h2.7l1.3 3.2-2.1 1.2a12.2 12.2 0 0 0 6.6 6.6l1.2-2.1 3.2 1.3v2.6a2 2 0 0 1-2.1 2.1A16.2 16.2 0 0 1 4.5 5.9 2 2 0 0 1 6.6 3.8z"/>
+              </svg>
+              +375 29 123-67-39
+            </a>
+          </li>
+          <li>
+            <a class="header__contact" href="https://t.me/henadzi_r" target="_blank" rel="noopener noreferrer">
+              <svg class="header__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m22 2-11 11"/>
+                <path d="M22 2 15 22l-4-9-9-4z"/>
+              </svg>
+              @henadzi_r
+            </a>
+          </li>
+          <li>
+            <a class="header__contact" href="mailto:grudchenko93@yandex.by">
+              <svg class="header__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3.5" y="5.5" width="17" height="13" rx="2"/>
+                <path d="m4 7 8 6 8-6"/>
+              </svg>
+              grudchenko93@yandex.by
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container layout">
+      <div class="layout__side">
+      <section class="section">
+        <h2 class="section__title" data-i18n="skills">Навыки</h2>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3 class="skill-card__title" data-i18n="skillLanguages">Языки</h3>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title" data-i18n="skillVue">Vue-экосистема</h3>
+            <ul class="tags">
+              <li>Vue</li>
+              <li>Nuxt</li>
+              <li>Pinia</li>
+              <li>Vue Router</li>
+              <li>Composition API</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title" data-i18n="skillStyles">Стили и вёрстка</h3>
+            <ul class="tags">
+              <li>Sass</li>
+              <li>Tailwind CSS</li>
+              <li>BEM</li>
+              <li>CSS Modules</li>
+              <li>Adaptive / Responsive</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title" data-i18n="skillData">Данные и API</h3>
+            <ul class="tags">
+              <li>REST API</li>
+              <li>GraphQL</li>
+              <li>WebSocket</li>
+              <li>Strapi</li>
+              <li>Supabase</li>
+              <li>Axios</li>
+              <li>Fetch</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title" data-i18n="tools">Инструменты</h2>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3 class="skill-card__title" data-i18n="toolsBuild">Сборка и качество</h3>
+            <ul class="tags">
+              <li>Git</li>
+              <li>Vite</li>
+              <li>Webpack</li>
+              <li>npm</li>
+              <li>ESLint</li>
+              <li>Prettier</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title" data-i18n="toolsDesign">Дизайн и AI</h3>
+            <ul class="tags">
+              <li>Figma</li>
+              <li>Cursor</li>
+              <li>ChatGPT</li>
+              <li>Claude</li>
+              <li data-i18n="tagAiAgents">AI-агенты</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title" data-i18n="toolsTest">Тесты и DX</h3>
+            <ul class="tags">
+              <li>Vitest</li>
+              <li>Playwright</li>
+              <li>Storybook</li>
+              <li>Chrome DevTools</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title" data-i18n="toolsExtra">Дополнительно</h3>
+            <ul class="tags">
+              <li>SSR / SSG</li>
+              <li>SEO</li>
+              <li>Accessibility</li>
+              <li>Web Performance</li>
+              <li>PWA</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      </div>
+
+      <div class="layout__main">
+      <section class="section">
+        <h2 class="section__title" data-i18n="experience">Опыт</h2>
+        <div class="edu-list">
+          <article class="edu-item">
+            <div class="edu-item__meta">
+              <p class="edu-item__kind" data-i18n="kindWork">Работа</p>
+              <p class="edu-item__years" data-i18n="yearsCompany">2018–н.в.</p>
+            </div>
+            <div class="edu-item__body">
+              <h3 class="edu-item__title">ZAOCHNIK</h3>
+
+              <div class="role">
+                <div class="role__head">
+                  <p class="edu-item__program" data-i18n="roleFrontend">Frontend-разработчик</p>
+                  <p class="role__years" data-i18n="yearsFrontend">2022–н.в.</p>
+                </div>
+                <ul class="duty-list">
+                  <li data-i18n="dutyFrontend1">Разрабатываю клиентскую часть на Vue.</li>
+                  <li data-i18n="dutyFrontend2">Работаю в команде с backend-разработчиками: согласовываю API и вместе выкатываю фичи.</li>
+                </ul>
+              </div>
+
+              <div class="role">
+                <div class="role__head">
+                  <p class="edu-item__program" data-i18n="roleSeo">SEO-специалист</p>
+                  <p class="role__years">2018–2022</p>
+                </div>
+                <ul class="duty-list">
+                  <li data-i18n="dutySeo1">Вёл полный цикл развития проекта: от прототипирования до запуска и дальнейшего роста.</li>
+                  <li data-i18n="dutySeo2">Работал с дизайнером и разработчиками над интерфейсом, постановкой задач и реализацией.</li>
+                  <li data-i18n="dutySeo3">Собирал семантику, ставил ТЗ копирайтерам, занимался внутренней и внешней оптимизацией.</li>
+                  <li data-i18n="dutySeo4">Продвигал проекты в Яндекс и Google.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="edu-item">
+            <div class="edu-item__meta">
+              <p class="edu-item__kind" data-i18n="kindFreelance">Фриланс</p>
+              <p class="edu-item__years" data-i18n="yearsFreelance">2022–н.в.</p>
+            </div>
+            <div class="edu-item__body">
+              <h3 class="edu-item__title" data-i18n="freelanceTitle">Сайты для клиентов</h3>
+              <p class="edu-item__program" data-i18n="freelanceProgram">Полный цикл самостоятельно</p>
+              <ul class="duty-list">
+                <li data-i18n="dutyFreelance1">Делаю небольшие сайты под ключ: от задачи до запуска и наполнения.</li>
+                <li data-i18n="dutyFreelance2">Начинал на MODX, затем перешёл на Nuxt + Strapi.</li>
+              </ul>
+              <p class="project-links__label" data-i18n="projects">Проекты</p>
+              <ul class="project-links">
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer">marycleaning.by<span>Nuxt</span></a>
+                </li>
+                <li>
+                  <a href="https://doyou.by/" target="_blank" rel="noopener noreferrer">doyou.by<span>Nuxt, Strapi</span></a>
+                </li>
+                <li>
+                  <a href="https://tafcatering.by/" target="_blank" rel="noopener noreferrer">tafcatering.by<span>Nuxt</span></a>
+                </li>
+                <li>
+                  <a href="https://prokardan.by/" target="_blank" rel="noopener noreferrer">prokardan.by<span>Vanilla JS, Phyton</span></a>
+                </li>
+                <li>
+                  <a href="https://belmusor.by/" target="_blank" rel="noopener noreferrer">belmusor.by<span>Vanilla JS, MODX</span></a>
+                </li>
+                <li>
+                  <a href="https://olgadremkova.by/" target="_blank" rel="noopener noreferrer">olgadremkova.by<span>VUE, MODX</span></a>
+                </li>
+                <li>
+                  <a href="https://english-with-angelika.by/" target="_blank" rel="noopener noreferrer">english-with-angelika.by<span>NUXT</span></a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title" data-i18n="education">Образование</h2>
+        <div class="edu-list">
+          <article class="edu-item">
+            <div class="edu-item__meta">
+              <p class="edu-item__kind" data-i18n="kindCourses">Курсы</p>
+              <p class="edu-item__years">2021–2023</p>
+            </div>
+            <div class="edu-item__body">
+              <h3 class="edu-item__title">Rolling Scopes School</h3>
+              <p class="edu-item__program">Frontend / JavaScript</p>
+              <p class="edu-item__note" data-i18n="rsNote">Основной источник практических навыков: вёрстка, JavaScript, командная разработка и работа с Git.</p>
+            </div>
+          </article>
+          <article class="edu-item">
+            <div class="edu-item__meta">
+              <p class="edu-item__kind" data-i18n="kindCourses">Курсы</p>
+              <p class="edu-item__years">2015</p>
+            </div>
+            <div class="edu-item__body">
+              <h3 class="edu-item__title" data-i18n="stepName">Академия ШАГ</h3>
+              <p class="edu-item__program" data-i18n="stepProgram">Современные веб-технологии и дизайн</p>
+              <p class="edu-item__note" data-i18n="stepNote">База по веб-разработке и дизайну интерфейсов.</p>
+            </div>
+          </article>
+          <article class="edu-item">
+            <div class="edu-item__meta">
+              <p class="edu-item__kind" data-i18n="kindCollege">Среднее специальное</p>
+              <p class="edu-item__years">2011–2014</p>
+            </div>
+            <div class="edu-item__body">
+              <h3 class="edu-item__title" data-i18n="collegeName">Минский государственный колледж электроники</h3>
+              <p class="edu-item__program" data-i18n="collegeProgram">Техник-электромеханик</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      </div>
+    </div>
+  </main>
+  <script src="i18n.js"></script>
+</body>
+</html>
