@@ -182,7 +182,12 @@
 
       <div class="layout__main">
       <section class="section">
-        <h2 class="section__title" data-i18n="experience">Опыт</h2>
+        <div class="section__head">
+          <h2 class="section__title" data-i18n="experience">Опыт</h2>
+          <button class="version-toggle" type="button" aria-pressed="false">
+            <span data-i18n-version>Короткая версия</span>
+          </button>
+        </div>
         <div class="edu-list">
           <article class="edu-item">
             <div class="edu-item__meta">
@@ -197,12 +202,18 @@
                   <p class="edu-item__program" data-i18n="roleFrontend">Frontend-разработчик</p>
                   <p class="role__years" data-i18n="yearsFrontend">2022–н.в.</p>
                 </div>
-                <div class="role__copy">
+                <div class="role__copy role__full">
                   <p><strong data-i18n="feTeamTitle">Дизайн и команда.</strong> <span data-i18n="feTeam">Работаю над проектами в тесной связке с дизайнерами и бэкенд-командой. Воплощаю макеты Figma в адаптивный, пиксель-перфектный код, обсуждаю логику интерфейсов и добиваюсь точного совпадения с дизайном на всех этапах.</span></p>
                   <p><strong data-i18n="feStackTitle">Стек.</strong> <span data-i18n="feStack">Строю фронтенд на современном стеке: Vue 3 с Composition API — для гибкой реактивной логики, TypeScript — для строгой типизации и предсказуемости кода, Pinia — для управления состоянием приложения. В проектах, где требуется серверный рендеринг или интеграция с CMS, использую Twig.</span></p>
                   <p><strong data-i18n="feApiTitle">Клиент-серверное взаимодействие.</strong> <span data-i18n="feApi">Реализую полноценное клиент-серверное взаимодействие: получаю данные по API с обработкой состояний загрузки и ошибок, динамически вывожу контент в интерфейс, настраиваю отправку форм с валидацией и обратной связью без перезагрузки страницы.</span></p>
                   <p><strong data-i18n="feGitTitle">Git и Docker.</strong> <span data-i18n="feGit">В командной разработке веду код через Git: работаю в feature-ветках, участвую в код-ревью, разрешаю конфликты и поддерживаю чистую историю. Для локального запуска проектов использую Docker — поднимаю окружение с бэкендом, базой данных и сопутствующими сервисами одной командой, чтобы вся экосистема работала стабильно и воспроизводимо.</span></p>
                 </div>
+                <ul class="duty-list role__short">
+                  <li data-i18n="feShort1">Верстаю макеты Figma в адаптивный пиксель-перфектный код, работаю с дизайнерами и бэкендом.</li>
+                  <li data-i18n="feShort2">Vue 3, Composition API, TypeScript, Pinia; Twig для SSR и CMS.</li>
+                  <li data-i18n="feShort3">API с обработкой загрузки и ошибок, формы с валидацией без перезагрузки страницы.</li>
+                  <li data-i18n="feShort4">Git: feature-ветки, код-ревью, конфликты; Docker для локального окружения.</li>
+                </ul>
               </div>
 
               <div class="role">
@@ -210,7 +221,7 @@
                   <p class="edu-item__program" data-i18n="roleSeo">SEO-специалист</p>
                   <p class="role__years">2018–2022</p>
                 </div>
-                <div class="role__copy">
+                <div class="role__copy role__full">
                   <p class="role__label" data-i18n="seoCompetencies">Ключевые компетенции</p>
                   <p data-i18n="seoLead">Управление полным жизненным циклом продуктов (Full-cycle Product Development). Опыт работы одновременно с 4 проектами в разных стадиях зрелости: редизайн и рефакторинг устаревших продуктов и создание продуктов с нуля.</p>
                   <p class="role__label" data-i18n="seoAchievements">Функционал и достижения</p>
@@ -219,6 +230,13 @@
                   <p><strong data-i18n="seoArtTitle">Арт-дирекция и контент.</strong> <span data-i18n="seoArt">Курировал создание визуальных концепций (брендинг, стиль) совместно с дизайнерами. Ставил ТЗ на разработку клиентской части, личного кабинета пользователя и админ-панели, а также контролировал подготовку контента от копирайтеров до финальной вёрстки на сайте.</span></p>
                   <p><strong data-i18n="seoLinksTitle">Линкбилдинг и продвижение.</strong> <span data-i18n="seoLinks">Разрабатывал стратегию наращивания ссылочной массы на основе анализа профилей конкурентов. Лично осуществлял закупку ссылок (биржи и прямые переговоры с веб-мастерами) и управлял работой линкбилдера для усиления позиций проекта.</span></p>
                 </div>
+                <ul class="duty-list role__short">
+                  <li data-i18n="seoShort1">Полный цикл 4 проектов: редизайн, рефакторинг и запуск с нуля.</li>
+                  <li data-i18n="seoShort2">Семантика, анализ конкурентов, структура сайта и УТП.</li>
+                  <li data-i18n="seoShort3">Документация проекта и согласование стека с разработчиками.</li>
+                  <li data-i18n="seoShort4">ТЗ на дизайн, клиентскую часть, личный кабинет и админ-панель; контент с копирайтерами.</li>
+                  <li data-i18n="seoShort5">Ссылочный профиль: стратегия, закупка ссылок и работа с линкбилдером.</li>
+                </ul>
               </div>
             </div>
           </article>
@@ -231,9 +249,13 @@
             <div class="edu-item__body">
               <h3 class="edu-item__title" data-i18n="freelanceTitle">Сайты для клиентов</h3>
               <p class="edu-item__program" data-i18n="freelanceProgram">Fullstack на Nuxt</p>
-              <ul class="duty-list">
+              <ul class="duty-list role__full">
                 <li data-i18n="dutyFreelance1">Делаю сайты под ключ: анализ конкурентов, сбор семантики, проработка структуры и базовая SEO-оптимизация.</li>
                 <li data-i18n="dutyFreelance2">Fullstack-разработка на Nuxt: самостоятельно веду проект от задачи до запуска, включая клиентскую и серверную часть.</li>
+              </ul>
+              <ul class="duty-list role__short">
+                <li data-i18n="freelanceShort1">Сайты под ключ: конкуренты, семантика, структура и базовое SEO.</li>
+                <li data-i18n="freelanceShort2">Fullstack на Nuxt от задачи до запуска.</li>
               </ul>
               <p class="project-links__label" data-i18n="projects">Проекты</p>
               <ul class="project-links">

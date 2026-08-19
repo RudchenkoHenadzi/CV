@@ -4,6 +4,8 @@ const translations = {
     docDescription: "CV Rudchenko Gennady",
     langSwitch: "Язык",
     downloadPdf: "Скачать PDF",
+    shortVersion: "Короткая версия",
+    fullVersion: "Полная версия",
     photoAlt: "Рудченко Геннадий",
     name: "Рудченко Геннадий",
     location: "Беларусь, Минск",
@@ -32,6 +34,10 @@ const translations = {
     feApi: "Реализую полноценное клиент-серверное взаимодействие: получаю данные по API с обработкой состояний загрузки и ошибок, динамически вывожу контент в интерфейс, настраиваю отправку форм с валидацией и обратной связью без перезагрузки страницы.",
     feGitTitle: "Git и Docker.",
     feGit: "В командной разработке веду код через Git: работаю в feature-ветках, участвую в код-ревью, разрешаю конфликты и поддерживаю чистую историю. Для локального запуска проектов использую Docker — поднимаю окружение с бэкендом, базой данных и сопутствующими сервисами одной командой, чтобы вся экосистема работала стабильно и воспроизводимо.",
+    feShort1: "Верстаю макеты Figma в адаптивный пиксель-перфектный код, работаю с дизайнерами и бэкендом.",
+    feShort2: "Vue 3, Composition API, TypeScript, Pinia; Twig для SSR и CMS.",
+    feShort3: "API с обработкой загрузки и ошибок, формы с валидацией без перезагрузки страницы.",
+    feShort4: "Git: feature-ветки, код-ревью, конфликты; Docker для локального окружения.",
     roleSeo: "SEO-специалист",
     seoCompetencies: "Ключевые компетенции",
     seoLead: "Управление полным жизненным циклом продуктов (Full-cycle Product Development). Опыт работы одновременно с 4 проектами в разных стадиях зрелости: редизайн и рефакторинг устаревших продуктов и создание продуктов с нуля.",
@@ -44,12 +50,19 @@ const translations = {
     seoArt: "Курировал создание визуальных концепций (брендинг, стиль) совместно с дизайнерами. Ставил ТЗ на разработку клиентской части, личного кабинета пользователя и админ-панели, а также контролировал подготовку контента от копирайтеров до финальной вёрстки на сайте.",
     seoLinksTitle: "Линкбилдинг и продвижение.",
     seoLinks: "Разрабатывал стратегию наращивания ссылочной массы на основе анализа профилей конкурентов. Лично осуществлял закупку ссылок (биржи и прямые переговоры с веб-мастерами) и управлял работой линкбилдера для усиления позиций проекта.",
+    seoShort1: "Полный цикл 4 проектов: редизайн, рефакторинг и запуск с нуля.",
+    seoShort2: "Семантика, анализ конкурентов, структура сайта и УТП.",
+    seoShort3: "Документация проекта и согласование стека с разработчиками.",
+    seoShort4: "ТЗ на дизайн, клиентскую часть, личный кабинет и админ-панель; контент с копирайтерами.",
+    seoShort5: "Ссылочный профиль: стратегия, закупка ссылок и работа с линкбилдером.",
     kindFreelance: "Фриланс",
     yearsFreelance: "2022–н.в.",
     freelanceTitle: "Сайты для клиентов",
     freelanceProgram: "Fullstack на Nuxt",
     dutyFreelance1: "Делаю сайты под ключ: анализ конкурентов, сбор семантики, проработка структуры и базовая SEO-оптимизация.",
     dutyFreelance2: "Fullstack-разработка на Nuxt: самостоятельно веду проект от задачи до запуска, включая клиентскую и серверную часть.",
+    freelanceShort1: "Сайты под ключ: конкуренты, семантика, структура и базовое SEO.",
+    freelanceShort2: "Fullstack на Nuxt от задачи до запуска.",
     projects: "Примеры проектов",
     education: "Образование",
     kindCourses: "Курсы",
@@ -66,6 +79,8 @@ const translations = {
     docDescription: "CV Gennady Rudchenko — Frontend Web Developer",
     langSwitch: "Language",
     downloadPdf: "Download PDF",
+    shortVersion: "Short version",
+    fullVersion: "Full version",
     photoAlt: "Gennady Rudchenko",
     name: "Gennady Rudchenko",
     location: "Minsk, Belarus",
@@ -94,6 +109,10 @@ const translations = {
     feApi: "Implement full client-server interaction: fetch API data with loading and error states, render content dynamically, and submit forms with validation and feedback without page reloads.",
     feGitTitle: "Git and Docker.",
     feGit: "Work in Git with feature branches, take part in code review, resolve conflicts, and keep a clean history. Use Docker to spin up the local environment with backend, database, and related services in one command so the stack is stable and reproducible.",
+    feShort1: "Turn Figma mockups into adaptive pixel-perfect code; work with designers and backend.",
+    feShort2: "Vue 3, Composition API, TypeScript, Pinia; Twig for SSR and CMS.",
+    feShort3: "API with loading and error states; forms with validation and no page reload.",
+    feShort4: "Git: feature branches, code review, conflicts; Docker for the local environment.",
     roleSeo: "SEO Specialist",
     seoCompetencies: "Key competencies",
     seoLead: "Full-cycle product development. Worked on 4 projects in parallel at different maturity stages: redesign and refactoring of legacy products, and building new products from scratch.",
@@ -106,12 +125,19 @@ const translations = {
     seoArt: "Supervised visual concepts (branding, style) together with designers. Wrote specs for the client-side app, user cabinet, and admin panel, and oversaw content from copywriters through to final layout.",
     seoLinksTitle: "Link building and promotion.",
     seoLinks: "Built a backlink growth strategy based on competitor profile analysis. Personally acquired links (marketplaces and direct outreach to webmasters) and managed a link builder to strengthen project rankings.",
+    seoShort1: "Full cycle across 4 projects: redesign, refactoring, and launches from scratch.",
+    seoShort2: "Keywords, competitor analysis, site structure, and USP.",
+    seoShort3: "Project documentation and stack alignment with developers.",
+    seoShort4: "Specs for design, the client app, user cabinet, and admin panel; content with copywriters.",
+    seoShort5: "Backlink profile: strategy, link acquisition, and managing a link builder.",
     kindFreelance: "Freelance",
     yearsFreelance: "2022–present",
     freelanceTitle: "Client websites",
     freelanceProgram: "Nuxt fullstack",
     dutyFreelance1: "Build websites end to end: competitor analysis, keyword research, site structure, and basic SEO.",
     dutyFreelance2: "Fullstack development with Nuxt: own the project from brief to launch, including the client and server sides.",
+    freelanceShort1: "Turnkey websites: competitors, keywords, structure, and basic SEO.",
+    freelanceShort2: "Nuxt fullstack from brief to launch.",
     projects: "Examples of projects",
     education: "Education",
     kindCourses: "Courses",
@@ -139,12 +165,67 @@ function getInitialLang() {
   return "ru";
 }
 
+function getInitialShort() {
+  const fromUrl = new URLSearchParams(window.location.search).get("short");
+  if (fromUrl === "1" || fromUrl === "true") {
+    return true;
+  }
+  if (fromUrl === "0" || fromUrl === "false") {
+    return false;
+  }
+
+  return window.localStorage.getItem("cv-short") === "1";
+}
+
+let currentLang = "ru";
+let isShort = false;
+
+function updateUrl() {
+  const url = new URL(window.location.href);
+  url.searchParams.set("lang", currentLang);
+  if (isShort) {
+    url.searchParams.set("short", "1");
+  } else {
+    url.searchParams.delete("short");
+  }
+  window.history.replaceState(null, "", url);
+}
+
+function updateVersionLabel() {
+  const button = document.querySelector(".version-toggle");
+  if (!button) {
+    return;
+  }
+
+  const dict = translations[currentLang];
+  const label = button.querySelector("[data-i18n-version]");
+  if (label && dict) {
+    label.textContent = isShort ? dict.fullVersion : dict.shortVersion;
+  }
+}
+
+function setShort(next) {
+  isShort = next;
+  document.body.classList.toggle("is-short", isShort);
+
+  const button = document.querySelector(".version-toggle");
+  if (button) {
+    button.classList.toggle("is-active", isShort);
+    button.setAttribute("aria-pressed", String(isShort));
+  }
+
+  updateVersionLabel();
+  window.localStorage.setItem("cv-short", isShort ? "1" : "0");
+  updateUrl();
+}
+
 function setLang(lang) {
   const dict = translations[lang];
   if (!dict) {
     return;
   }
 
+  currentLang = lang;
   document.documentElement.lang = lang;
   document.title = dict.docTitle;
 
@@ -188,11 +269,9 @@ function setLang(lang) {
     pdfLink.setAttribute("download", filename);
   }
 
+  updateVersionLabel();
   window.localStorage.setItem("cv-lang", lang);
-
-  const url = new URL(window.location.href);
-  url.searchParams.set("lang", lang);
-  window.history.replaceState(null, "", url);
+  updateUrl();
 }
 
 document.querySelectorAll(".lang-switch [data-lang]").forEach((button) => {
@@ -201,4 +280,12 @@ document.querySelectorAll(".lang-switch [data-lang]").forEach((button) => {
   });
 });
 
+const versionToggle = document.querySelector(".version-toggle");
+if (versionToggle) {
+  versionToggle.addEventListener("click", () => {
+    setShort(!isShort);
+  });
+}
+
 setLang(getInitialLang());
+setShort(getInitialShort());
